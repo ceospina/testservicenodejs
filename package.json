@@ -1,8 +1,25 @@
 {
-  "name": "myapp",
-  "description": "a really cool app",
-  "version": "1.0.0",
+  "name": "testservicenodejs",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
   "engines": {
     "node": "6.11.4"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.15.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ceospina/testservicenodejs.git"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
 }
